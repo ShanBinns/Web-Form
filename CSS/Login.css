@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+  border: 3px solid grey;
+  max-width: 450px;
+  padding: 15px;
+  margin: 0 auto;
+  color: #017572;
+}
+
+h1{
+  text-align: center;
+  color: #017572;
+}
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 5;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 10px;
+  margin: 20px 5;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+}
+
+.cancelbtn {
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside the container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
